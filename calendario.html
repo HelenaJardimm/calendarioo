@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="calendar.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="calendar" id="calendar">
+      <thead>
+        <thead>
+          <tr>
+            <th id="dom">Dom</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+            <th id="sabado">Sab</th>
+         
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td class="Sab">6</td>
+          </tr>
+          <tr>
+       
+            <td class="domingo">7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td class="Sab">13</td>
+           
+          </tr>
+          <tr>
+            <td class="domingo">14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td class="Sab">20</td>
+           
+          </tr>
+          <tr>
+            <td class="domingo">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td class="Sab">27</td>
+          </tr>
+          <tr>
+            <td class="domingo">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+           
+          </tr>
+        </tbody>
+      </table>
+    <hr/>
+    <label for="color">Escolha uma cor:</label>
+    <select id="color" name="color">
+        <option value="LightBlue">Azul</option>
+        <option value="PaleGreen">Verde</option>
+        <option value="LightPink">Rosa</option>
+        <option value="SlateBlue">Roxo</option>
+    </select>
+    <label for="day">Escolha o dia:</label>
+    <input type="number" id="day" name="day" min="1" max="31">
+    <input type="submit" onclick="colorirDia()"> 
+    <!-- <input type="number" min="0" oninput="validity.valid||(value='');"/> -->
+
+    <table border="1">
+      <tr>
+          <td>TIPO DE CAMINHÃO</td>
+          <td>COR NO CALENDARIO</td>
+          <td>FRETES NO MÊS</td>
+          <td>CAPACIDADE</td>
+      </tr>
+      <tr>
+          <td>Carreta 3/4</td>
+          <td> Azul </td>
+          <td>3</td>
+          <td>2,5 toneladas</td>
+      </tr>
+      <tr>
+          <td> Truck </td>
+          <td> Verde </td>
+          <td>3</td>
+          <td>11 toneladas</td>
+      </tr> 
+      <tr>
+          <td> Toco </td>
+          <td> Rosa </td>  
+          <td>3</td>  
+          <td>5 toneladas</td> 
+
+      </tr>
+      <tr>
+        <td>Caminhão eixo extendido</td>
+        <td> Roxo </td>  
+        <td>3</td>  
+        <td>33 toneladas</td> 
+
+    </tr>
+    
+
+  </tr>
+
+  </table>
+  
+
+</body>
+</html>
+
