@@ -25,3 +25,23 @@ CODIGO JS
 3. `else if (days >= 31) { alert('Escolha um dia entre 1 e 30'); }`: Verifica se o valor inserido é maior ou igual a 31. Se for, exibe um alerta informando que o usuário deve escolher um dia entre 1 e 30, pois o mês só tem até 30 dias.
  
 4. `else { let color = document.getElementById('color').value; let calendar = document.getElementById('calendario'); let td = calendar.getElementsByTagName('td')[(parseInt(days))]; td.style.backgroundColor = color }`: Se o valor inserido estiver entre 1 e 30, a função continua. Ele obtém o valor selecionado no elemento de seleção de cor com o id 'color'. Em seguida, obtém a referência à tabela do calendário com o id 'calendario'. Depois, obtém todas as células da tabela (`<td>`) e seleciona a célula correspondente ao dia inserido pelo usuário. Por fim, define a cor de fundo da célula selecionada para a cor escolhida pelo usuário.
+
+CODIGO CSS
+
+1. `table, th, td, tr { ... }`: Define estilos para a tabela (`table`), cabeçalhos de tabela (`th`), células de tabela (`td`) e linhas de tabela (`tr`). Os estilos aplicados incluem uma borda de 1 pixel sólida de cor azul (`rgb(9, 199, 216)`), colapso de borda (`border-collapse: collapse`), alinhamento de texto centralizado e uma fonte de família Verdana, Geneva, Tahoma ou sans-serif.
+ 
+2. `th { ... }`: Define estilos específicos para os cabeçalhos de tabela (`th`). Define a cor de fundo como uma tonalidade de verde (`rgb(11, 227, 227)`) e a cor do texto como branco.
+ 
+3. `th, td { ... }`: Define estilos comuns para tanto os cabeçalhos de tabela (`th`) quanto as células de tabela (`td`). Define a largura das colunas como 80 pixels e a altura das linhas como 60 pixels.
+ 
+4. `td { ... }`: Define estilos específicos para as células de tabela (`td`). Define o tamanho da fonte como 40 pixels.
+ 
+5. `h1 { ... }`: Define estilos para os elementos `<h1>`. Define o tamanho da fonte como 320%.
+ 
+6. `.Sab { ... }`: Define estilos para elementos com a classe `.Sab`. Define a cor do texto como uma tonalidade de verde (`rgb(25, 227, 55)`).
+ 
+7. `#sabado { ... }`: Define estilos para o elemento com o id `sabado`. Define a cor do texto como uma tonalidade de verde (`rgb(25, 227, 55)`).
+ 
+8. `.domingo { ... }`: Define estilos para elementos com a classe `.domingo`. Define a cor do texto como uma tonalidade de verde (`rgb(25, 227, 55)`).
+ 
+9. `#dom { ... }`: Define estilos para o elemento com o id `dom`. Define a cor do texto como uma tonalidade de verde (`rgb(25, 227, 55)`).
